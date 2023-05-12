@@ -4,7 +4,7 @@
 
 Esse é um sistema desenvolvido em PHP que permite que um administrador possa cadastrar funcionários e marcar suas presenças em dias específicos.
 
-## Instalação e Configuração
+## Instalação 
 
 Para instalar e configurar o sistema em seu ambiente XAMPP, siga os passos abaixo:
 
@@ -19,6 +19,18 @@ Para instalar e configurar o sistema em seu ambiente XAMPP, siga os passos abaix
 5. Configure as informações de conexão do banco de dados no arquivo "config.php" localizado na pasta "includes". Substitua "nome_do_banco_de_dados", "nome_de_usuário" e "senha" pelos valores corretos de acordo com sua instalação.
 
 6. Abra um navegador e acesse http://localhost/nome_da_pasta_extraída para acessar o sistema. Lembre-se de substituir "nome_da_pasta_extraída" pelo nome da pasta extraída na etapa 2.
+
+## Configurações
+
+As configurações do sistema estão definidas no arquivo "env.example.php". Para configurar o sistema, renomeie este arquivo para ".env.php" e defina os valores das variáveis de ambiente de acordo com sua instalação.
+
+As seguintes variáveis devem ser definidas:
+
+- **DB_HOST:** o endereço do servidor de banco de dados.
+- **DB_PORT:** a porta do servidor de banco de dados.
+- **DB_NAME:** o nome do banco de dados.
+- **DB_USER:** o nome de usuário do banco de dados.
+- **DB_PASS:** a senha do usuário do banco de dados.
 
 ## Funcionalidades
 
