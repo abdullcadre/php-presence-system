@@ -1,5 +1,3 @@
-Claro! Segue abaixo o README.md com anotações Markdown:
-
 # Sistema de Gestão de Presenças de Funcionários
 
 ## Descrição
